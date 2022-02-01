@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100% !important;
+  width: 100vw;
+}
+body {
+  // background-image: url("images/favicon-32x32.png");
+  background-repeat: no-repeat;
+  .main {
+    height: 100vh !important;
+    width: 100vw;
+    background-color: rgb(198, 208, 221);
+    position: absolute;
+  }
+  .container {
+    margin-top: 9em;
+    .main-content {
+      background-color: rgb(250, 249, 248);
+      width: fit-content;
+      height: fit-content;
+      border-radius: 14px;
+      margin: 0 auto;
+      .content {
+        width: 13em;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        img {
+          border-radius: 14px;
+          margin-top: 12px;
+        }
+        h3 {
+          font-size: 1rem;
+          font-weight: 700;
+          margin: 14px auto 9px auto;
+        }
+        p {
+          font-size: 0.8rem;
+          color: rgb(158, 156, 154);
+        }
+      }
+    }
+  }
+}

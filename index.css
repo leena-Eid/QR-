@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100% !important;
+  width: 100vw;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+body .main {
+  height: 100vh !important;
+  width: 100vw;
+  background-color: #c6d0dd;
+  position: absolute;
+}
+
+body .container {
+  margin-top: 9em;
+}
+
+body .container .main-content {
+  background-color: #faf9f8;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 14px;
+  margin: 0 auto;
+}
+
+body .container .main-content .content {
+  width: 13em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body .container .main-content .content img {
+  border-radius: 14px;
+  margin-top: 12px;
+}
+
+body .container .main-content .content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 14px auto 9px auto;
+}
+
+body .container .main-content .content p {
+  font-size: 0.8rem;
+  color: #9e9c9a;
+}
+/*# sourceMappingURL=index.css.map */
